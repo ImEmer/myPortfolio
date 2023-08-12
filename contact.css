@@ -1,0 +1,154 @@
+body{
+    font-family:Arial;
+    margin:0px;           background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS39EPdslFxcifJ595LY1MxIBJnEDKrIOEg_A&usqp=CAU');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;    
+    padding:0px;
+}
+
+nav{
+    margin-top:0px;
+    padding:10px;
+}
+
+
+.heading-main{
+    margin-left:15px;
+}
+
+section{
+    margin-top:-70px;
+}
+
+h1{
+    color:white;
+    
+}
+
+h2{
+    position:relative;
+    top:-48px;
+    left:15px;
+    color:red;
+    text-shadow:2px 2px 5px black, -2px -2px 5px black;
+}
+
+a{
+    padding:10px;
+    text-decoration:none;
+    color:white;
+    position:relative;
+    top:-90px;
+    left:130px;
+}
+
+.main{
+    color:red;
+    font-weight:bold;
+}
+
+.corner{
+    width:0px;
+    height:30px;
+    background:red;
+    margin-left:60px;
+    margin-top:30px;
+}
+
+.word{
+    font-size:32px;
+    color:white;
+    font-family:Verdana;
+    position:relative;
+    top:-67px;
+    left:75px;   
+    margin-bottom:10px;
+}
+
+.container-main{
+    border:2px solid gray;
+    background:gray;
+    margin:0px 20px;
+    animation-name:topbottom;
+    animation-duration:1s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+    position:relative;
+}
+
+#name{
+    outline:none;
+    color:white;
+    background:black;
+    width:250px;
+    position: relative;
+    top:-50px;
+    margin-left:20px;
+    margin-right:20px;
+    border-radius:10px;
+    padding:5px;
+    border:none;
+}
+
+#email{
+    position:relative;
+    top:-30px;    
+    outline:none;
+    color:white;
+    background:black;
+    width:110px;
+    margin-left:20px;
+    margin-right:20px;
+    border-radius:10px;
+    padding:5px;
+    border:none;
+}
+
+#num{
+    position:relative;
+    top:-55px;
+    left:140px;    
+    outline:none;
+    color:white;
+    background:black;
+    width:110px;
+    margin-left:20px;
+    margin-right:20px;
+    border-radius:10px;
+    padding:5px;
+    border:none;
+}
+
+textarea{
+    outline:none;
+    background:black;
+    color:white;
+    position:relative;
+    left:20px;
+    top:-40px;
+    border-radius:5px;
+    width:252px;
+    height:60px;
+}
+
+.send-btn{
+    background:red;
+    color:white;
+    border-radius:10px;
+    border:none;
+    width:100px;
+    padding:5px;
+    position:relative;
+    top:-20px;
+    left:95px;
+}
+
+@keyframes topbottom{
+    from{
+    top:-50px;  
+}
+
+to{
+   top:10px;
+}

@@ -1,0 +1,182 @@
+body{
+    font-family:Arial;
+    margin:0px;           background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsKv3TuNRGTEv897_FvZ0DRjwfavnpTOMF2A&usqp=CAU');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;    
+    padding:0px;
+}
+
+nav{
+    margin-top:0px;
+    padding:10px;
+}
+
+.heading-main{
+    margin-left:10px;
+}
+
+.main{
+    color:red;
+    font-weight:bold;
+}
+
+a{
+    padding:10px;
+    text-decoration:none;
+    color:white;
+    position:relative;
+    top:-90px;
+    left:130px;
+}
+
+h1{
+    color:white;
+    
+}
+
+h2{
+    position:relative;
+    top:-48px;
+    left:15px;
+    color:red;
+    text-shadow:2px 2px 5px black, -2px -2px 5px black;
+}
+
+.corner{
+    width:0px;
+    height:30px;
+    background:red;
+    margin-left:50px;
+    position:relative;
+    animation-name:drag;
+    animation-duration:2s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+
+.hakdog{
+    font-size:32px;
+    color:white;
+    font-family:Verdana;
+    position:relative;
+    top:-68px;
+    margin-bottom:10px;
+    animation-name:slide;
+    animation-duration:2s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+
+.html-image{
+    width:104px;
+    height:100px;
+    position:relative;
+    left:15px;
+    top:-20px;
+}
+
+.css-image{
+    position:relative;
+    top:-8px;
+    left:15px;
+    width:120px;
+    height:118px;
+}
+
+.java-image{
+   position:relative;
+   top:-155px;
+   left:170px;
+   width:250px;
+   height:160px;
+}
+
+.percentage{
+   position:relative;
+   top:-120px;  
+}
+
+label{
+    color:white;
+    margin-left:20px;
+    margin-right:15px;
+    font-weight:bold;
+}
+
+.html-percent{
+    background:red;
+    outline:none;
+    border:1px solid red;    
+    border-radius:15px;
+    margin-top:10px;
+    margin-left:20px;
+    height:5px;
+    width:140px;
+}
+
+.css-percent{
+    background:red;
+    outline:none;
+    border:1px solid red;    
+    border-radius:15px;
+    height:5px;
+    width:240px;
+    margin-left:20px;
+}
+
+.java-percent{
+    background:red;
+    outline:none;
+    border:1px solid red;    
+    border-radius:15px;
+    height:5px;
+    width:190px;
+    margin-left:20px;
+}
+ 
+.programming-percent{
+   margin-left:300px;
+   font-weight:bold;
+   color:white; 
+   font-size:18px;
+}   
+   
+.fourty{
+    position:relative;
+    top:-272px;
+}
+
+.eighty{
+    position:relative;
+    top:-254px;
+}
+
+.sixty{
+    position:relative;
+    top:-234px;
+}
+
+@keyframes slide{
+    from{
+        left:0;
+    }
+    
+    to{
+        left:70px;
+    }
+}
+
+@keyframes drag{
+    0%{
+    top:-80px;    
+    }
+          
+    100%{
+        top:0px;
+    }
+}
+
+
+
